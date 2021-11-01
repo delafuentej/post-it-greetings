@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Sacramento&display=swap');
+
+
+.card{
+    background-color: gold;
+    width:200px;
+    height: 175px;
+    padding:20px;
+    margin: 20px auto;
+    text-align: center;
+    background-image: linear-gradient(173deg, rgba(0,0,0,0) 80%,
+    rgba(51, 50, 50, 0.4) 100%);
+    transform: rotate(-2deg);
+    border:5px gray;
+    box-shadow: 12px 10px 20px 0 rgb(200, 224, 168);
+    font-family: 'Rock Salt', cursive;
+    
+}
+
+
+.card::before{
+    content:"";
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: calc(50% - 7px);
+    box-shadow: 4px 4px 3px rgba(51, 50, 50, 0.4);
+    transform: rotate(-2deg);
+}
+
+.card:hover{
+    cursor:pointer; 
+    transform:translateY(-0.3rem);
+    transition:transform 300ms;
+
+}
+
+.first-p{
+    margin-top: 20px;
+    transform: rotate(-5deg);
+
+
+}
+.second-p{
+    margin-top:20px;
+    transform: rotate(-5deg);
+}

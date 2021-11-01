@@ -1,0 +1,30 @@
+.form-container{
+    width:250px;
+    padding:25px;
+    background-color:gold;
+    margin:75px auto;
+    display: flex;
+    border:1px solid rgb(241, 229, 229);
+    border-radius: calc(0.5 * 100px);
+    box-shadow: 0 10px 20px 0 rgb(200, 224, 168);
+    justify-content: center; 
+     
+  }
+
+.form-container:hover{
+    cursor:pointer; 
+    transform:translateY(-0.3rem);
+    transition:transform 700ms;
+}
+
+.input-text{
+    font-size: 1rem;
+    font-weight: 400;
+    width: 85%;
+    padding-right: 5px;
+    padding-left: 10px;
+    border-radius: calc(0.5 * 100px);
+    border-color: greenyellow;
+    text-align: center;
+}
+
